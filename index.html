@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="button-19.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+		background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
+    }
+
+    form {
+      max-width: 900px;
+      margin: 20px auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="radio"] {
+      margin-right: 5px;
+    }
+
+    #result {
+      font-weight: bold;
+      margin-top: 20px;
+    }
+	#quizForm{
+		display:grid;
+		grid-template-columns:1fr;
+		
+	
+	}
+	.questiona{
+		border:1px solid gray;
+		background:#00ff80;
+		font-family:Roboto;
+		font-size:20px;
+		padding:5px;
+		
+	}
+	.questionb{
+		border:1px solid gray;
+		background:#bfff00;
+		font-family:Roboto;
+		font-size:20px;
+		padding:5px;
+		
+	}
+	.container{
+		max-width: 800px;
+		margin: 20px auto;
+		display:grid;
+		grid-template-columns:1fr 2fr;
+		
+	}
+	.result{
+		border:1px dotted navy;
+		padding:10px;
+		color:black;
+		background:#FF00FF;
+		
+	}
+	.heading{
+		background:orange;
+		color:black;
+		border:1px solid black;
+		font-size:30px;
+		padding:5px;
+	}
+	.section{
+		color:green
+	}
+	.name{
+		color:blue;
+	}
+  </style>
+</head>
+<body>
+<h1 align=center>Major Pt in Math-9</h1>
+<h3>By:<span class=name> Delos Reyes, Jaime Jr. and Oraiz, Glitz Kirk</span>  | <span class=section> Grade9-Calasanz</span></h3>
+
+<form id="quizForm">
+<div class=heading>
+		Solve the quadratic equation and Choose the correct answer:
+	</div>
+<div class=questiona>
+	
+  <label>1. Solve this quadratic equation 3x<sup>2</sup> + 7x - 2 = 0 using Quadratic Formula<br><br>
+    <input type="radio" name="q1" value="a"> a) (-7&frasl;6 + 1&radic;73 &frasl;6, -7&frasl;6 - 1&radic;73 &frasl;6)
+    <input type="radio" name="q1" value="b"> b) (7&frasl;6 + 1&radic;73 &frasl;6, 7&frasl;6 - 1&radic;73 &frasl;6)
+    <input type="radio" name="q1" value="c"> c) (-7&frasl;6 + 1&radic;73 &frasl;6, 7&frasl;6 - 1&radic;73 &frasl;6)
+  </label>
+</div>
+<div class=questionb>
+  <label>2. Solve this quadratic equation 2x<sup>2</sup> + 8x + 2 = 0 using Quadratic Formula<br><br>
+    <input type="radio" name="q2" value="a"> a) (2 + &radic; 3, 2 - &radic; 3)
+    <input type="radio" name="q2" value="b"> b) (-2 + &radic; 3, -2 - &radic; 3)
+    <input type="radio" name="q2" value="c"> c) (-2 + &radic; 3, 2 + &radic; 3)
+  </label>
+</div>
+
+<div class=questiona>
+  <label>3. Solve this quadratic equation (2x + 1)<sup>2</sup> = 9 using Square Root Method<br><br>
+    <input type="radio" name="q3" value="a"> a) (-1 , -2)
+    <input type="radio" name="q3" value="b"> b) (1 , 2)
+    <input type="radio" name="q3" value="c"> c) (1 , -2)
+  </label>
+</div>
+
+<div class=questionb>
+  <label>4. Solve this quadratic equation (4x + 6)<sup>2</sup> = 16 using Square Root Method<br><br>
+    <input type="radio" name="q4" value="a"> a) (1&frasl;2 , -5&frasl;2)
+    <input type="radio" name="q4" value="b"> b) (-1&frasl;2 , -5&frasl;2)
+    <input type="radio" name="q4" value="c"> c) (1&frasl;2 , 5&frasl;2)
+  </label>
+</div>
+
+<div class=questiona>
+  <label>5. Solve this quadratic equation x<sup>2</sup> - 4x + 12 = 0 using Factoring Method<br><br>
+    <input type="radio" name="q5" value="a"> a) (6 , 2)
+    <input type="radio" name="q5" value="b"> b) (-6 , -2)
+    <input type="radio" name="q5" value="c"> c) (6 , -2)
+  </label>
+</div>
+
+<div class=questionb>
+  <label>6. Solve this quadratic equation 2x<sup>2</sup> - 4x - 8 = 0 using Factoring Method<br><br>
+    <input type="radio" name="q6" value="a"> a) (-1 + &radic; 5 , -1 - &radic; 5)
+    <input type="radio" name="q6" value="b"> b) (-1 + &radic; 5 , 1 - &radic; 5)
+    <input type="radio" name="q6" value="c"> c) (1 + &radic; 5 , -1 - &radic; 5)
+  </label>
+</div>
+
+<div class=questiona>
+  <label>7. Solve this quadratic equation x<sup>2</sup> - 6x + 3 = 0 using Finding the third term<br><br>
+    <input type="radio" name="q7" value="a"> a) (-3 + &radic; 6 , -3 - &radic; 6)
+    <input type="radio" name="q7" value="b"> b) (3 + &radic; 6 , -3 - &radic; 6)
+    <input type="radio" name="q7" value="c"> c) (3 + &radic; 6 , 3 - &radic; 6)
+  </label>
+</div>
+
+<div class=questionb>
+  <label>8. Solve this quadratic equation x<sup>2</sup> - 12x + 9 = 0 using Finding the third term<br><br>
+    <input type="radio" name="q8" value="a"> a) (1 , 11)
+    <input type="radio" name="q8" value="b"> b) (1 , -11)
+    <input type="radio" name="q8" value="c"> c) (-1 , -11)
+  </label>
+</div>
+
+<div class=questiona>
+  <label>9. Solve this quadratic equation p<sup>2</sup> + 8p + 15 = 0 using Factoring Method<br><br>
+    <input type="radio" name="q9" value="a"> a) (-3 , -5)
+    <input type="radio" name="q9" value="b"> b) (3 , 5)
+    <input type="radio" name="q9" value="c"> c) (3 , -5)
+  </label>
+</div>
+
+<div class=questionb>
+  <label>10. Solve this quadratic equation 4x<sup>2</sup> + 8x - 14 = 0 using Quadratic Formula<br><br>
+    <input type="radio" name="q10" value="a"> a) (1 + 3&radic;8&frasl; 4, -1 - 3&radic;8&frasl; 4)
+    <input type="radio" name="q10" value="b"> b) (1 + 3&radic;8&frasl; 4, 1 - 3&radic;8&frasl; 4)
+    <input type="radio" name="q10" value="c"> c) (-1 + 3&radic;8&frasl; 4, -1 - 3&radic;8&frasl; 4)
+  </label>
+</div>
+  <!-- Add more questions here -->
+
+ 
+</form>
+<div class=container>
+<div>
+ <button class=button-19 type="button" onclick="calculateScore()">Submit</button>
+</div>
+<div id="result" class=result></div>
+</div>
+<script>
+  function calculateScore() {
+    const answers = {
+      q1: "a",
+      q2: "b",
+      q3: "c",
+	  q4: "b",
+	  q5: "c",
+	  q6: "a",
+	  q7: "a",
+	  q8: "c",
+	  q9: "a",
+	  q10: "c",
+      // Add more answers here
+    };
+
+    let score = 0;
+
+    for (const question in answers) {
+      const selectedAnswer = document.querySelector(`input[name="${question}"]:checked`);
+      if (selectedAnswer) {
+        const userAnswer = selectedAnswer.value;
+        if (userAnswer === answers[question]) {
+          score++;
+        }
+      }
+    }
+
+    const resultElement = document.getElementById("result");
+    resultElement.textContent = `Your score: ${score} out of ${Object.keys(answers).length} | Click Refresh to try gain `;
+	
+  }
+</script>
+
+</body>
+</html>
